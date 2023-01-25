@@ -9,7 +9,7 @@ PyBind11 allows you to run compiled C++ code in a Python script. Combining the s
 Look at the presentation `pybind.key` for a description of the project.
 
 * All-python code:
-    - PythonL `slow.py`.
+    - Python: `slow.py`.
     - Results: `slow.png`
     - The results don't give the correct value of `k`, but I haven't bothered to fix this yet.
 
@@ -20,7 +20,7 @@ Look at the presentation `pybind.key` for a description of the project.
     - Results: `fast.png`
 
 * Rust code:
-    - All Rust files: `fast/`
+    - All Rust files: `rust/` (remember to compile with `cargo run --release`)
     - Results: `rust.png`
 
 * Display and data generation code: 
